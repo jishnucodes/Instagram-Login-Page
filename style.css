@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    margin: 2% 15% 0 22%
+}
+
+.form-container{
+    width: 500px;
+    height: 500px;
+}
+.form-content{
+    border: 1px solid rgb(194 228 233);
+    width: 355px;
+    height: 420px;
+    padding: 7px;
+    text-align: center;
+    margin-top: 19px;
+    margin-left: 30px;
+}
+.form-content .header{
+    width: 211px;
+    height: 85px;
+    margin-top: 20px;
+}
+
+.input-group{
+    width: 344px;
+    margin-top: 25px;
+}
+.input-group input{
+    width: 270px;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(194 228 233);
+}
+#button input{
+    border: 1px solid blue;
+    margin-top: 13px;
+    border-radius: 10px;
+    background-color: #1eaed3;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.line-maker{
+        position: relative;
+       text-align: center;
+       text-transform: uppercase;
+       color: #247e96;;
+      
+      
+}
+
+.line-maker::before{
+    
+        content:" ";
+        display: block;
+        height: 1px;
+        width: 130px;
+        position: absolute;
+        top: 47%;
+        background: #1eaed3; 
+        margin-left: 25px;
+      
+
+}
+
+.line-maker::after{
+    
+    content: " ";
+    height: 1px;
+    width: 130px;
+    background: #1eaed3;
+    display: block;
+    position: absolute;
+    top: 47%;
+    right: 0;
+    margin-right: 25px; 
+      
+}
+
+.img1{
+    width: 20px;
+    height: 20px;
+    margin-top: -3px;
+}
+
+ .link1{
+    text-decoration: none;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 17px;
+
+}
+.word2{
+    margin-top: 13px;
+    margin-left: 30px;
+}
+.link2{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.border{
+    width: 355px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 14px;
+    border: 1px solid rgb(194 228 233);
+    padding: 3px 15px
+    
+}
+.border p{
+    text-align: center;
+}
+.border a{
+    text-decoration: none;
+}
+.inner-border{
+    width: 355px;
+}
+.inner-border p{
+    text-align: center;
+}
+.image-banner{
+    width: 100%;
+    display: flex;
+}
+.image-banner .img2{
+    width: 240px;   
+}
+.img2 img{
+    width: 140px;
+    height: 40px;
+    margin-left: 48px;
+}
+.image-banner .img3{
+    width:240px;
+    
+}
+.img3 img{
+    width: 140px;
+    height: 40px;
+    margin-left: -30px;
+}
+footer{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+footer span{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
